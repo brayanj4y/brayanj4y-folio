@@ -202,13 +202,6 @@ body {
     line-height: 1.5;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .background-cards {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
 .projects {
     background-color: #fdf7f1;
@@ -282,14 +275,12 @@ body {
 
 .contact-section {
     background-color: #8b3f27;
-    /* Rich brown background */
     color: #fff;
     padding: 50px;
     text-align: left;
     font-family: 'Georgia', serif;
     position: relative;
     overflow: hidden;
-    height: 60%;
 }
 
 .contact-heading {
@@ -326,13 +317,11 @@ body {
 }
 
 .contact-info {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    text-align: right;
+    gap: 15px;
+    padding-top: 20px;
 }
 
 .contact-item {
@@ -343,53 +332,64 @@ body {
     color: #fff;
 }
 
-.contact-item i {
-    font-size: 1.5rem;
+.contact-item img {
+    width: 32px;
 }
 
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 1rem;
-}
-
-.contact-item i {
-    font-size: 1.5rem;
-}
-
-/* Top-right and bottom-left image styling */
-.top-right-image {
-    position: absolute;
-    top: 1px;
-    right: 20px;
-    width: 150px;
-    height: auto;
-    z-index: 1;
-    transform: rotate(180deg);
-    /* Rotates the image 180 degrees */
-    display: block;
-    /* Ensures the image behaves well in its container */
+.line-separator {
+    margin: 40px 0;
+    border: none;
+    border-top: 2px solid #fff;
+    opacity: 0.5;
 }
 
 .footer-text {
-    position: absolute;
-    bottom: 28px;
-    left: 20px;
-    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
     color: #a65b2a;
     font-family: 'Georgia', serif;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    line-height: 1.6;
     text-align: left;
 }
 
 
 /* Responsive design */
 @media (max-width: 768px) {
+
+    .about-me {
+        flex-direction: column;
+        padding: 30px 15px;
+        gap: 20px;
+    }
+
+    .about-me .content {
+        text-align: center;
+    }
+
+    .about-me h2 {
+        font-size: 2rem;
+    }
+
+    .about-me p {
+        font-size: 1.2rem;
+        line-height: 1.6;/
+    }
+
+    .about-me .profile-pic img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .background-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .contact-section {
         padding: 30px;
         text-align: center;
@@ -400,6 +400,7 @@ body {
         right: 10px;
         gap: 5px;
         flex-direction: column;
+        border-top: 1px solid #fff;
         align-items: center;
     }
 
@@ -413,5 +414,25 @@ body {
 
     .contact-item span {
         font-size: 0.9rem;
+    }
+}
+
+/* Responsive Design for Mobile Phones */
+@media (max-width: 480px) {
+    .about-me {
+        padding: 20px 10px;
+    }
+
+    .about-me h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-me p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .about-me .profile-pic img {
+        max-width: 200px;
     }
 }
