@@ -85,8 +85,6 @@ body {
     z-index: 10;
 }
 
-/* Ensure the hero section has relative positioning for proper placement */
-
 
 /* About Me Section Styling */
 .about-me {
@@ -372,11 +370,11 @@ body {
     }
 
     .about-me h2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .about-me p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.6;/
     }
 
