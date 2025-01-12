@@ -49,7 +49,7 @@ The portfolio website is designed to showcase the skills, projects, and achievem
    - **HTML**: For website structure and content.
    - **CSS**: For styling and layout.
    - **Icons**: SVG icons sourced from external resources.
-   - **Hosting**: *(Add hosting platform once deployed, e.g., GitHub Pages, Netlify)*
+   - **Hosting**: *Vercel*
 
 ### 2. **📂 File Structure**
    ```plaintext
