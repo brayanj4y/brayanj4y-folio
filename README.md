@@ -49,7 +49,7 @@ The portfolio website is designed to showcase my skills, projects, and achieveme
    - **HTML**: For website structure and content.
    - **CSS**: For styling and layout.
    - **Icons**: SVG icons sourced from external resources.
-   - **Hosting**: Vercel
+   - **Hosting**: Vercel app
 
 ### 2. **📂 File Structure**
    ```plaintext
