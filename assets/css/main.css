@@ -358,9 +358,6 @@ body {
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .hero img{
-        left: 20px
-    }
 
     .about-me {
         flex-direction: column;
@@ -377,8 +374,8 @@ body {
     }
 
     .about-me p {
-        font-size: 1.5rem;
-        line-height: 1.6;/
+        font-size: 2.5rem;
+        line-height: 1.6;
     }
 
     .about-me .profile-pic img {
