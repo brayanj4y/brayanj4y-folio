@@ -379,7 +379,7 @@ body {
     }
 
     .about-me .profile-pic img {
-        max-width: 300px;
+        max-width: 400px;
         height: auto;
     }
 
@@ -431,6 +431,6 @@ body {
     }
 
     .about-me .profile-pic img {
-        max-width: 200px;
+        max-width: 300px;
     }
 }
