@@ -358,6 +358,9 @@ body {
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .hero img{
+        left: 20px
+    }
 
     .about-me {
         flex-direction: column;
