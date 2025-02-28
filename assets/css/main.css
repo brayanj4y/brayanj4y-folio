@@ -360,7 +360,7 @@ body {
     .hero img {
         position: absolute;
         bottom: 0px;
-        left: 0px;
+        left: -20px;
     }
 
     .about-me {
