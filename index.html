@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S.Silvain Brayan</title>
+    <title>Souop Silvain Brayan</title>
     <meta name="description" content="Portfolio of S.Silvain Brayan, showcasing projects and skills.">
     <meta name="keywords" content="S.Silvain Brayan, portfolio, web developer, projects, skills">
     <meta name="author" content="S.Silvain Brayan">
@@ -38,7 +38,7 @@
     <!-- About Me Section -->
     <section class="about-me">
         <div class="content">
-            <h2>About <span class="highlight">Souop Silvain B.</span></h2>
+            <h2>About <span class="highlight">Souop Silvain Brayan.</span></h2>
             <p>
                 I’m a second-year HND student passionate about AI, software development, and machine learning. I’ve
                 worked on ML projects and software applications, aiming to make an impact by blending innovation with
@@ -135,8 +135,6 @@
         </div>
     </section>
     <section class="projects">
-        <!-- Decorative Image -->
-        <img src="assets/images/IMG-20250106-WA0046.png" alt="Decorative Icon" class="decorative-image">
 
         <h2 class="project-title">Project Gallery</h2>
         <p class="description">Here are some of the projects I worked on</p>
@@ -199,7 +197,7 @@
         </div>
         <hr class="line-separator">
         <div class="footer-text">
-            <p>All rights reserved ©S.Silvain Brayan 2025</p>
+            <p>All rights reserved ©Souop Silvain Brayan <span id="year"></span></p>
             <p>Made with ❤️ by Me</p>
         </div>
     </section>
@@ -207,5 +205,10 @@
 
 
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("year").textContent = new Date().getFullYear();
+    });
+</script>
 
 </html>

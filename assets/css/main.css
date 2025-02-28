@@ -35,6 +35,7 @@ body {
     position: relative;
 }
 
+
 /* Hero Section Styling */
 .hero {
     text-align: center;
@@ -74,7 +75,6 @@ body {
     border-bottom-color: #ff6347;
 }
 
-/* Hero Section Image Styling */
 .hero img {
     position: absolute;
     bottom: 0px;
@@ -115,17 +115,21 @@ body {
 .about-me p {
     font-size: 1.5rem;
     line-height: 1.8;
-    color: #333;
+    color: black;
     text-align: justify;
 }
 
 .about-me .profile-pic img {
     width: 400px;
-    height: 500px;
-    border-radius: 15px;
+    height: 600px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Background Section Styles */
 .background {
@@ -136,7 +140,6 @@ body {
     box-shadow: 0 -10px 15px -10px rgba(0, 0, 0, 0.1);
 }
 
-/* Image on Right */
 .background-image {
     position: absolute;
     bottom: 0;
@@ -201,6 +204,7 @@ body {
 }
 
 
+/* Projects Section Styles */
 .projects {
     background-color: #fdf7f1;
     text-align: center;
@@ -260,113 +264,114 @@ body {
     display: block;
 }
 
-/* Decorative Image Styling */
-.decorative-image {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    width: 150px;
-    height: auto;
-    z-index: 1;
-}
-
-
+/* Contacts Section Styles */
 .contact-section {
-    background-color: #8b3f27;
-    color: #fff;
-    padding: 50px;
+    background-color: #894922;
+    /* Warm brown background */
+    color: #fffaf0;
+    /* Off-white text */
+    padding: 60px 80px;
     text-align: left;
     font-family: 'Georgia', serif;
-    position: relative;
-    overflow: hidden;
 }
 
 .contact-heading {
-    font-size: 2.5rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.4;
+    max-width: 600px;
 }
 
 .contact-heading .highlight {
-    font-style: italic;
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: #fff;
+    text-underline-offset: 4px;
+    font-style: italic;
 }
 
 .social-text {
-    font-size: 0.9rem;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 14px;
     letter-spacing: 1px;
+    color: #e0d6ca;
 }
 
 .social-icons {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-bottom: 30px;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: auto;
+    filter: brightness(90%);
 }
 
 .social-icons a {
-    color: #fff;
-    font-size: 1.5rem;
+    color: #e0d6ca;
     text-decoration: none;
+    font-style: italic;
+    font-size: 16px;
 }
 
 .contact-info {
-    margin-bottom: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding-top: 20px;
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 1rem;
-    color: #fff;
+    gap: 12px;
 }
 
 .contact-item img {
-    width: 32px;
+    width: 22px;
+    height: auto;
+}
+
+.contact-item span {
+    font-size: 16px;
+    color: #e0d6ca;
 }
 
 .line-separator {
-    margin: 40px 0;
+    margin-top: 40px;
     border: none;
-    border-top: 2px solid #fff;
-    opacity: 0.5;
+    border-top: 1px solid #c9b6a0;
+    width: 100%;
 }
 
 .footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #c9b6a0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-size: 0.9rem;
-    color: #a65b2a;
-    font-family: 'Georgia', serif;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px 15px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: left;
 }
 
 
-/* Responsive design */
+/* Responsive Design for Tablets and Smaller Screens */
 @media (max-width: 768px) {
+    .hero img {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
 
     .about-me {
         flex-direction: column;
-        padding: 30px 15px;
-        gap: 20px;
+        text-align: center;
+        gap: 50px;
+        padding: 80px 40px;
     }
 
     .about-me .content {
-        text-align: center;
+        max-width: 90%;
     }
 
     .about-me h2 {
@@ -374,51 +379,46 @@ body {
     }
 
     .about-me p {
-        font-size: 2.5rem;
-        line-height: 1.6;
+        font-size: 1.5rem;
     }
 
     .about-me .profile-pic img {
-        max-width: 400px;
+        width: 80%;
         height: auto;
-    }
-
-    .background-cards {
-        flex-direction: column;
-        align-items: center;
+        max-width: 400px;
     }
 
     .contact-section {
-        padding: 30px;
+        padding: 40px;
         text-align: center;
     }
 
+    .contact-heading {
+        font-size: 28px;
+        max-width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
     .contact-info {
-        bottom: 10px;
-        right: 10px;
-        gap: 5px;
-        flex-direction: column;
-        border-top: 1px solid #fff;
         align-items: center;
+        gap: 10px;
     }
 
-    .contact-item i {
-        font-size: 1.2rem;
-    }
-
-    .top-right-image {
-        width: 50px;
-    }
-
-    .contact-item span {
-        font-size: 0.9rem;
+    .contact-item {
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
 /* Responsive Design for Mobile Phones */
 @media (max-width: 480px) {
+
     .about-me {
-        padding: 20px 10px;
+        padding: 60px 20px;
+        gap: 30px;
     }
 
     .about-me h2 {
@@ -426,11 +426,58 @@ body {
     }
 
     .about-me p {
-        font-size: 1.4rem;
-        line-height: 1.4;
+        font-size: 1.5rem;
+        line-height: 1.8;
     }
 
     .about-me .profile-pic img {
+        width: 100%;
         max-width: 300px;
+        height: auto;
+    }
+
+    .contact-section {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .contact-heading {
+        font-size: 24px;
+    }
+
+    .social-text {
+        font-size: 12px;
+    }
+
+    .social-icons {
+        gap: 10px;
+    }
+
+    .contact-info {
+        gap: 5px;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .contact-item img {
+        width: 20px;
+    }
+
+    .contact-item span {
+        font-size: 14px;
+    }
+
+    .line-separator {
+        margin-top: 30px;
+    }
+
+    .footer-text {
+        font-size: 12px;
+        flex-direction: column;
+        align-items: center;
     }
 }
