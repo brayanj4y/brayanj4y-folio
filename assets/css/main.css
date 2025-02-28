@@ -415,6 +415,10 @@ body {
 
 /* Responsive Design for Mobile Phones */
 @media (max-width: 480px) {
+    .hero .description {
+        font-size: 1.3rem;
+        line-height: 1.8;
+    }
 
     .about-me {
         padding: 60px 20px;
@@ -426,7 +430,7 @@ body {
     }
 
     .about-me p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 1.8;
     }
 
