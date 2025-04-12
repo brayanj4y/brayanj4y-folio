@@ -53,11 +53,12 @@ The portfolio website is designed to showcase my skills, projects, and achieveme
 
 ### 2. **📂 File Structure**
    ```plaintext
-   /assets/
-      /css/
-         main.css    --> 🎨 Main stylesheet for the website
-      /images/       --> 🖼️ Folder containing all images and icons
-      /icons/        --> 🛑 Web manifest and favicon
-   index.html         --> 🌐 Main HTML file
-   LICENSE            --> 📜 MIT License
-   README.md          --> 📖 Project documentation
+   Directory structure:
+└── brayanj4y-brayanj4y-folio/
+    ├── README.md
+    ├── index.html
+    ├── LICENSE
+    └── assets/
+        ├── css/
+        │   └── main.css
+        └── images/
