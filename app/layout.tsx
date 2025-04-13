@@ -1,4 +1,5 @@
 import type React from "react"
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next"
 import { Inter, Playfair_Display } from "next/font/google"
 import "./globals.css"
@@ -31,10 +32,8 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
 }
-
-
-import './globals.css'

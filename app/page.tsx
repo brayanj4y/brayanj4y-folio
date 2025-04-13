@@ -243,6 +243,30 @@ export default function Home() {
                 </div>
               </div>
             </Link>
+            <Link
+              href="https://github.com/brayanj4y/brayanj4y-folio"
+              target="_blank"
+              className="group"
+            >
+              <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                <div className="h-48 relative">
+                  <Image
+                    src="\images\folio.png?height=200&width=400"
+                    alt="Portfolio Project"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-medium mb-2 text-amber-800 group-hover:text-amber-700 transition-colors">
+                    Personal Portfolio Website
+                  </h3>
+                  <p className="text-neutral-600">
+                    A modern and responsive portfolio website showcasing my projects, skills, and experience.
+                  </p>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
