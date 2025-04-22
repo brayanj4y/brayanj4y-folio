@@ -1,24 +1,9 @@
-import type React from "react"
-import { Analytics } from "@vercel/analytics/react"
-import type { Metadata } from "next"
-import { Inter, Playfair_Display } from "next/font/google"
-import "./globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-})
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-})
+import type { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
-  title: "Souop Silvain Brayan | Portfolio",
-  description:
-    "Portfolio of Souop Silvain Brayan, showcasing projects and skills in AI, software development, and machine learning.",
+  title: 'Souop Silvain Brayan',
+  description: 'Portfolio',
 }
 
 export default function RootLayout({
@@ -27,13 +12,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          {children}
-        </ThemeProvider>
-        <Analytics />
-      </body>
+    <html lang="en">
+      <head>
+        <link rel="icon" href="/hero.png" />
+      </head>
+      <body>{children}</body>
     </html>
   )
 }
