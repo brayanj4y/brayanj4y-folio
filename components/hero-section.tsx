@@ -111,7 +111,7 @@ export default function HeroSection() {
               transition={{ delay: 0.3, type: "spring", stiffness: 200, damping: 15 }}
             >
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium text-sm">
-                Software Engineer
+                Software Engineer & AI Enthusiast
               </span>
             </motion.div>
 
@@ -141,7 +141,7 @@ export default function HeroSection() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7, duration: 0.5 }}
             >
-              I'm a software engineer who builds powerful digital solutions by combining clean code with smart design to deliver seamless user experiences.
+              Coding up the future one project at a time! I create digital solutions that look great, work smoothly, and solve real problems. Let's build something awesome together! 💻✨
             </motion.p>
 
             <motion.div

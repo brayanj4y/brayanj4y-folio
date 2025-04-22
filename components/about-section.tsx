@@ -18,7 +18,7 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">About Me</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Just a junior dev turning coffee into code and ideas into clean, functional apps with just the right mix of design and tech magic.
+            Tech enthusiast on a mission to transform ideas into awesome apps! Blending design flair with coding skills to create digital experiences that actually work. ✨
           </p>
         </div>
 
@@ -45,15 +45,14 @@ export default function AboutSection() {
             >
               <h3 className="text-2xl font-bold mb-4">Hi, I'm Jay</h3>
               <p className="text-lg mb-4">
-                I'm Souop Silvain Brayan my crew, infact everybody call me Jay a Level 2 student at JFN-HITECH University Douala, a junior software developer, and an aspiring AI engineer who loves solving real-world problems with code.
+                Hey there! I'm Souop Silvain Brayan, but everyone calls me Jay. Currently leveling up as a student at JFN-HITECH University Douala, I'm a junior software developer with big dreams of becoming an AI engineer who tackles real challenges with code.
               </p>
               <p className="text-lg mb-4">
-                I enjoy building mobile and web apps, learning new tech, and collaborating on fun, impactful projects.
+                My passion? Creating mobile and web apps that make a difference. I'm always eager to explore new technologies and team up on projects that have actual impact.
               </p>
               <p className="text-lg mb-6">
-                When I'm not coding, I'm hunting for cool ideas to build or contribute to.... or just chilling with my crew, Byte Phantoms 👻.
+                When I'm not deep in code, you'll find me brainstorming new project ideas or hanging out with my amazing team, Byte Phantoms 👻. We're all about pushing boundaries while having fun!
               </p>
-
 
               <div className="flex flex-wrap gap-4 mt-8">
                 <Button

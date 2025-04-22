@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    font-size: 80%;
+    /* Scale down to 80% */
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 0%;
@@ -10,8 +15,8 @@
     --card-foreground: 0 0% 0%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 0%;
-    --primary: 30 100% 30%;
-    /* Brown color for Jay */
+    --primary: 0 0% 0%;
+    /* Black color instead of brown */
     --primary-foreground: 0 0% 100%;
     --secondary: 0 0% 90%;
     --secondary-foreground: 0 0% 0%;
@@ -23,8 +28,8 @@
     --destructive-foreground: 0 0% 100%;
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 30 100% 30%;
-    /* Brown color for Jay */
+    --ring: 0 0% 0%;
+    /* Black color instead of brown */
     --radius: 0.75rem;
   }
 

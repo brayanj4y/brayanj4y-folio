@@ -41,44 +41,44 @@ export default function ExperienceSection() {
   ];
 
   return (
-    <section id="experience" className="py-20 px-4 md:px-6 lg:px-8 relative overflow-hidden">
+    <section id="experience" className="py-16 px-3 md:px-5 lg:px-6 relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,hsl(var(--primary)/0.2),transparent_40%)] z-0"></div>
       <div className="max-w-5xl mx-auto relative z-10">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-12 text-center">Work Experience</h2>
+        <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-10 text-center">Work Experience</h2>
 
         <div ref={ref} className="relative">
           {/* Timeline line */}
           <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-primary/20 transform md:-translate-x-px" />
 
           {/* Experience items */}
-          <div className="space-y-12">
+          <div className="space-y-10">
             {experiences.map((experience, index) => (
               <div key={index} className="relative">
                 <motion.div
                   initial={{ opacity: 0, y: 50 }}
                   animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                   transition={{ duration: 0.5, delay: index * 0.2 }}
-                  className="relative grid md:grid-cols-2 gap-8"
+                  className="relative grid md:grid-cols-2 gap-6"
                 >
                   {/* Timeline dot */}
-                  <div className="absolute left-0 md:left-1/2 top-0 w-6 h-6 bg-background rounded-full border-2 border-primary transform -translate-x-1/2 md:-translate-x-3 flex items-center justify-center">
-                    <Briefcase className="h-3 w-3 text-primary" />
+                  <div className="absolute left-0 md:left-1/2 top-0 w-5 h-5 bg-background rounded-full border-2 border-primary transform -translate-x-1/2 md:-translate-x-2.5 flex items-center justify-center">
+                    <Briefcase className="h-2.5 w-2.5 text-primary" />
                   </div>
 
                   {/* Date - Left side on desktop, top on mobile */}
-                  <div className="md:text-right pl-10 md:pl-0 md:pr-8">
-                    <div className="inline-flex items-center text-sm font-medium text-muted-foreground mb-2">
-                      <Calendar className="h-4 w-4 mr-2 md:hidden" />
+                  <div className="md:text-right pl-8 md:pl-0 md:pr-6">
+                    <div className="inline-flex items-center text-xs font-medium text-muted-foreground mb-1.5">
+                      <Calendar className="h-3 w-3 mr-1.5 md:hidden" />
                       <span>{experience.period}</span>
-                      <Calendar className="h-4 w-4 ml-2 hidden md:block" />
+                      <Calendar className="h-3 w-3 ml-1.5 hidden md:block" />
                     </div>
-                    <h3 className="text-xl font-bold">{experience.title}</h3>
+                    <h3 className="text-lg font-bold">{experience.title}</h3>
                     <p className="text-primary font-medium">{experience.company}</p>
                   </div>
 
                   {/* Content - Right side on desktop */}
-                  <Card className="border border-primary/10 bg-background/50 backdrop-blur-sm hover:bg-background/80 transition-colors pl-10 md:pl-8">
-                    <CardContent className="p-4">
+                  <Card className="border border-primary/10 bg-background/50 backdrop-blur-sm hover:bg-background/80 transition-colors pl-8 md:pl-6">
+                    <CardContent className="p-3">
                       <p className="text-muted-foreground">{experience.description}</p>
                     </CardContent>
                   </Card>
@@ -88,7 +88,7 @@ export default function ExperienceSection() {
           </div>
 
           <motion.div
-            className="mt-12 text-center"
+            className="mt-10 text-center"
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ delay: 0.8 }}
@@ -96,11 +96,11 @@ export default function ExperienceSection() {
             <a
               href="https://cvdesignr.com/p/65f2067992029"
               target="_blank"
-              className="inline-flex items-center text-primary hover:underline font-medium"
+              className="inline-flex items-center text-primary hover:underline font-medium text-sm"
               rel="noreferrer"
             >
               <span>View Full Resume</span>
-              <ArrowRight className="ml-2 h-4 w-4" />
+              <ArrowRight className="ml-1.5 h-3 w-3" />
             </a>
           </motion.div>
         </div>

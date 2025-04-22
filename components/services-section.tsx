@@ -22,25 +22,25 @@ export default function ServicesSection() {
       icon: <Brain className="h-10 w-10 text-primary" />,
       title: "AI-Powered Web Apps",
       description:
-        "Building smart, scalable web applications using Next.js, integrated with AI services like OpenAI, LangChain, and vector databases for intelligent user experiences.",
+        "Crafting super-smart web apps with Next.js that actually understand what users want! I integrate cool AI services like OpenAI and vector databases to create experiences that feel almost magical. ✨",
     },
     {
       icon: <Hammer className="h-10 w-10 text-primary" />,
       title: "No-Code & Low-Code Solutions",
       description:
-        "Rapid development of AI-enabled apps using platforms like FlutterFlow to bring ideas to life fast, with custom backend integrations and responsive design.",
+        "Got an awesome idea? Let's bring it to life ASAP with low-code platforms like FlutterFlow! I'll add custom backends and make everything look amazing on any device—no endless coding required.",
     },
     {
       icon: <Bot className="h-10 w-10 text-primary" />,
       title: "AI Integration & Prototyping",
       description:
-        "Connecting applications to cutting-edge AI services for tasks like natural language processing, image generation, and automation — perfect for MVPs and prototypes.",
+        "Let's give your apps superpowers! I connect them to cutting-edge AI for text processing, image generation, and automation. Perfect for testing your concept without breaking the bank!",
     },
     {
       icon: <Sparkles className="h-10 w-10 text-primary" />,
       title: "Creative AI Tooling",
       description:
-        "Developing custom tools and internal utilities to streamline and accelerate AI product development, combining technical skill with a passion for innovation.",
+        "Building the cool tools that make AI development way less complicated. I combine tech skills with creative thinking to craft utilities that speed up workflows while keeping the fun in functional.",
     },
   ];
 
@@ -63,7 +63,7 @@ export default function ServicesSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Services I Offer</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            I specialize in creating engaging digital experiences through these core services
+            Check out how I can help turn your ideas into reality with these tech skills and services!
           </p>
         </div>
 
