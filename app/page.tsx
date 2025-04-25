@@ -42,7 +42,7 @@ export default function Home() {
                             description="An intelligent tool designed to create customized exam questions and quizzes."
                             tags={["AI", "Gemini API", "Next.js", "EdTech"]}
                             imageUrl="/exam-gen.png"
-                            demoUrl="https://exam-question-generator-g1zgzm.vercel.app/"
+                            demoUrl="https://ai-powered-exam-generator.vercel.app/"
                             githubUrl="https://github.com/brayanj4y/ai-powered-exam-generator"
                         />
                         <ProjectCard
@@ -50,8 +50,8 @@ export default function Home() {
                             description="A customizable tool to generate synthetic datasets for training and testing machine learning models."
                             tags={["AI Tools", "Dataset", "Automation"]}
                             imageUrl="/dataset.png"
-                            demoUrl="https://github.com/CodeHive-by-Jay/Dataset-Generator-For-CodeHive"
-                            githubUrl="https://github.com/CodeHive-by-Jay/Dataset-Generator-For-CodeHive"
+                            demoUrl="https://github.com/brayanj4y/Dataset-Generator"
+                            githubUrl="https://github.com/brayanj4y/Dataset-Generator"
                         />
                         <ProjectCard
                             title="Personal Portfolio Website"
