@@ -66,7 +66,7 @@ export default function Home() {
 
                     <div className="mt-12 text-center">
                         <Link
-                            href="https://github.com/brayanj4y/"
+                            href="https://github.com/brayanj4y?tab=repositories"
                             className="bg-white text-primary hover:bg-gray-50 border border-gray-200 shadow-sm px-8 py-4 rounded-lg font-medium transition-all hover:shadow-md inline-flex items-center"
                         >
                             View All Projects
