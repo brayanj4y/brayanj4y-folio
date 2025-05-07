@@ -54,12 +54,12 @@ export default function Home() {
                             githubUrl="https://github.com/brayanj4y/Dataset-Generator"
                         />
                         <ProjectCard
-                            title="Language Buddy"
-                            description="Language Buddy uses Google's Gemini 1.5 Flash AI to transform formal text into various slang styles."
-                            tags={["Next.js", "Tailwind CSS", "AI", "Language Learning"]}
-                            imageUrl="/langbuddy.png" // Replace with your actual image path
-                            demoUrl="https://langbuddy-nu.vercel.app/"
-                            githubUrl="https://github.com/brayanj4y/langbuddy" // Replace with actual GitHub URL if available
+                            title="Gitlease"
+                            description="Automatically create comprehensive release notes for any public GitHub repository between any two points in time.."
+                            tags={["Next.js", "Tailwind CSS", "Github API", "Markdown"]}
+                            imageUrl="/gitlease.png" // Replace with your actual image path
+                            demoUrl="https://gitlease.vercel.app/"
+                            githubUrl="https://github.com/brayanj4y/gitlease" // Replace with actual GitHub URL if available
                         />
 
                     </div>
