@@ -30,12 +30,12 @@ export default function Home() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                         <ProjectCard
-                            title="Emergency Response System"
-                            description="An app for real-time emergency communication and resource allocation."
-                            tags={["Bootstrap", "CSS", "Frontend", "Emergency"]}
-                            imageUrl="/samu.png"
-                            demoUrl="https://github.com/brayanj4y/SAMU-douala-web-emergency-system-frontend"
-                            githubUrl="https://github.com/brayanj4y/SAMU-douala-web-emergency-system-frontend"
+                            title="CodeAssist"
+                            description="a browser-based code editor that uses Gemini to assist you in real time!"
+                            tags={["Typescript", "Next.js", "Gemini API", "Monaco"]}
+                            imageUrl="/codeassist.png"
+                            demoUrl="https://code-assist-lilac.vercel.app/"
+                            githubUrl="https://github.com/brayanj4y/code-assist"
                         />
                         <ProjectCard
                             title="AI Exam Generator Using Gemini API"
