@@ -38,20 +38,20 @@ export default function Home() {
                             githubUrl="https://github.com/brayanj4y/code-assist"
                         />
                         <ProjectCard
-                            title="AI Exam Generator Using Gemini API"
-                            description="An intelligent tool designed to create customized exam questions and quizzes."
-                            tags={["AI", "Gemini API", "Next.js", "EdTech"]}
-                            imageUrl="/exam-gen.png"
-                            demoUrl="https://ai-powered-exam-generator.vercel.app/"
-                            githubUrl="https://github.com/brayanj4y/ai-powered-exam-generator"
+                            title="Zenote"
+                            description="AI powered note taking app for both markdown and normal text with mind map"
+                            tags={["AI", "Gemini API", "Next.js", "Note app"]}
+                            imageUrl="/zenote.jpeg"
+                            demoUrl="https://zenotes-two.vercel.app/"
+                            githubUrl="https://github.com/brayanj4y/zenotes"
                         />
                         <ProjectCard
-                            title="Dataset Generator For AI Prototyping"
-                            description="A customizable tool to generate synthetic datasets for training and testing machine learning models."
-                            tags={["AI Tools", "Dataset", "Automation"]}
-                            imageUrl="/dataset.png"
-                            demoUrl="https://github.com/brayanj4y/Dataset-Generator"
-                            githubUrl="https://github.com/brayanj4y/Dataset-Generator"
+                            title="Whispr"
+                            description="A NGL alternative but better Anonymous messaging • Self-destructing secrets"
+                            tags={["Self destruct message", "Messaging", "Secrets"]}
+                            imageUrl="/whispr.jpeg"
+                            demoUrl="https://whispr-lime.vercel.app/"
+                            githubUrl="https://github.com/brayanj4y/whispr"
                         />
                         <ProjectCard
                             title="Gitlease"
