@@ -31,7 +31,7 @@ export default function AboutSection() {
           >
             <div className="relative aspect-[3/4] max-w-md mx-auto overflow-hidden rounded-lg">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-primary/20 z-10" />
-              <Image src="about.jpg?height=800&width=600" alt="About Me" fill className="object-cover" />
+              <Image src="about.jpeg?height=800&width=600" alt="About Me" fill className="object-cover" />
             </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
