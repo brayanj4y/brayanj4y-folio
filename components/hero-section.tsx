@@ -187,8 +187,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.7, ease: "easeOut" }}
             >
-              Coding up the future one project at a time! I create digital solutions that look great, work smoothly, and
-              solve real problems. Let's build something awesome together! 💻✨
+              Coding the future one project at a time. I create digital solutions that look good, work well, and solve real problems. Let’s build something great together. 💻✨
             </motion.p>
 
             <motion.div

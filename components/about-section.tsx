@@ -18,7 +18,7 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">About Me</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Tech enthusiast on a mission to transform ideas into awesome apps! Blending design flair with coding skills to create digital experiences that actually work. ✨
+            Tech enthusiast on a mission to turn ideas into great apps. I mix design skills with coding to create digital experiences that really work. ✨
           </p>
         </div>
 
@@ -43,15 +43,15 @@ export default function AboutSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.5 }}
             >
-              <h3 className="text-2xl font-bold mb-4">Hi, I'm Jay</h3>
+              <h3 className="text-2xl font-bold mb-4">HELLO!</h3>
               <p className="text-lg mb-4">
-                Hey there! I'm Souop Silvain Brayan, but everyone calls me Jay. Currently leveling up as a student at JFN-HITECH University Douala, I'm a junior software developer with big dreams of becoming an AI engineer who tackles real challenges with code.
+                My full name is Souop Silvain Brayan but everyone calls me Jay. Levelled up as a JFN-HITECH University Douala student, I'm a junior software engineer with a passion to be an AI engineer who solves real-world problems with code.
               </p>
               <p className="text-lg mb-4">
-                My passion? Creating mobile and web apps that make a difference. I'm always eager to explore new technologies and team up on projects that have actual impact.
+                My passion is creating mobile and web apps that make a difference. I’m always excited to explore new technologies and collaborate on projects that truly matter.
               </p>
               <p className="text-lg mb-6">
-                When I'm not deep in code, you'll find me brainstorming new project ideas or hanging out with my amazing team, Byte Phantoms 👻. We're all about pushing boundaries while having fun!
+                When I'm not deep in code, I brainstorm new project ideas or spend time with my amazing team, Byte Phantoms. We love pushing boundaries while having fun.👻
               </p>
 
               <div className="flex flex-wrap gap-4 mt-8">

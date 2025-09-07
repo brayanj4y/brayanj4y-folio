@@ -30,6 +30,14 @@ export default function Home() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                         <ProjectCard
+                            title="Rushed AI"
+                            description="Create web apps, websites and web components in minutes"
+                            tags={["Next.js", "Claude", "NeonDB", "Inngest AgentKit"]}
+                            imageUrl="/rushed-ai.png"
+                            demoUrl="https://rushed-ai.vercel.app/"
+                            githubUrl="https://github.com/brayanj4y/rushed"
+                        />
+                        <ProjectCard
                             title="CodeAssist"
                             description="a browser-based code editor that uses Gemini to assist you in real time!"
                             tags={["Typescript", "Next.js", "Gemini API", "Monaco"]}
@@ -53,14 +61,7 @@ export default function Home() {
                             demoUrl="https://whispr-lime.vercel.app/"
                             githubUrl="https://github.com/brayanj4y/whispr"
                         />
-                        <ProjectCard
-                            title="Gitlease"
-                            description="Automatically create comprehensive release notes for any public GitHub repository between any two points in time.."
-                            tags={["Next.js", "Tailwind CSS", "Github API", "Markdown"]}
-                            imageUrl="/gitlease.png" // Replace with your actual image path
-                            demoUrl="https://gitlease.vercel.app/"
-                            githubUrl="https://github.com/brayanj4y/gitlease" // Replace with actual GitHub URL if available
-                        />
+
 
                     </div>
 
