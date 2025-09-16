@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Sparkles } from "lucide-react"
 import ProjectCard from "@/components/project-card"
-import SkillPill from "@/components/skill-pill"
+import SkillPill from "@/components/small-components/skill-pill"
 import HeroSection from "@/components/hero-section"
 import AboutSection from "@/components/about-section"
 import ExperienceSection from "@/components/experience-section"
@@ -88,15 +88,9 @@ export default function Home() {
                         <SkillPill name="Supabase" />
                         <SkillPill name="Clerk" />
                         <SkillPill name="GitHub" />
-                        <SkillPill name="PHP" />
                         <SkillPill name="JavaScript" />
-                        <SkillPill name="Python" />
-                        <SkillPill name="NumPy" />
-                        <SkillPill name="Pandas" />
-                        <SkillPill name="Scikit-learn" />
                         <SkillPill name="HTML5" />
                         <SkillPill name="CSS" />
-                        <SkillPill name="Bootstrap 5" />
                         <SkillPill name="Node.js" />
                         <SkillPill name="Next.js" />
                         <SkillPill name="SQLite3" />
@@ -109,4 +103,4 @@ export default function Home() {
             <ContactSection />
         </main>
     )
-} 
+}

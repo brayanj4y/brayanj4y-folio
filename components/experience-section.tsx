@@ -18,11 +18,19 @@ export default function ExperienceSection() {
 
   const experiences: ExperienceItem[] = [
     {
-      title: "HND, Software Engineering",
+      title: "BTECH, Software Engineering",
       company: "JFN-HITECH University Douala",
       period: "Oct 2023 – Present",
       description:
-        "Currently pursuing a Higher National Diploma with a focus on modern web development, AI integration, and software engineering principles.",
+        "Currently pursuing a Bachelor Degree in Software engineering with a focus on modern web development, AI integration, and software engineering principles.",
+    },
+
+    {
+      title: "HND, Software Engineering",
+      company: "JFN-HITECH University Douala",
+      period: "Oct 2023 – June 2025",
+      description:
+        "Obtained a Higher National Diploma with a focus on modern web development, AI integration, and software engineering principles.",
     },
     {
       title: "Junior Software Engineer (Intern)",

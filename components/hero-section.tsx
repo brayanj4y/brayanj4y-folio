@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { ArrowDown, Github, Linkedin, Instagram } from "lucide-react"
+import { ArrowDown, Github, Linkedin, ArrowDownCircleIcon, Mail, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useMobile } from "@/hooks/use-mobile"
 
@@ -151,7 +151,7 @@ export default function HeroSection() {
               transition={{ delay: 0.3, duration: 0.6, ease: "easeOut" }}
             >
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium text-sm backdrop-blur-sm">
-                Software Engineer & AI Enthusiast
+                Software Engineer.
               </span>
             </motion.div>
 
@@ -161,7 +161,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.7, ease: "easeOut" }}
             >
-              Hi, I'm{" "}
+              I'm{" "}
               <span className="text-primary relative inline-block">
                 Jay
                 <motion.span
@@ -187,7 +187,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.7, ease: "easeOut" }}
             >
-              Coding the future one project at a time. I create digital solutions that look good, work well, and solve real problems. Let’s build something great together. 💻✨
+              I code my journey one semicolon at a time; I only break things to make them better 🚀.
             </motion.p>
 
             <motion.div
@@ -198,12 +198,12 @@ export default function HeroSection() {
             >
               <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} transition={{ duration: 0.2 }}>
                 <Button size="lg" asChild className="shadow-md hover:shadow-lg transition-shadow">
-                  <Link href="#projects">View My Work</Link>
+                  <Link href="#projects">View My Work<ArrowDownCircleIcon /></Link>
                 </Button>
               </motion.div>
               <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} transition={{ duration: 0.2 }}>
                 <Button variant="outline" size="lg" asChild className="backdrop-blur-sm">
-                  <Link href="mailto:souopsylvain@gmail.com">Get In Touch</Link>
+                  <Link href="mailto:souopsylvain@gmail.com">Get In Touch <Mail /></Link>
                 </Button>
               </motion.div>
             </motion.div>
@@ -222,9 +222,9 @@ export default function HeroSection() {
                   label: "LinkedIn",
                 },
                 {
-                  icon: <Instagram className="h-5 w-5" />,
+                  icon: <Twitter className="h-5 w-5" />,
                   href: "https://instagram.com/brayanj4y",
-                  label: "Instagram",
+                  label: "Twitter",
                 },
               ].map((social, index) => (
                 <motion.div

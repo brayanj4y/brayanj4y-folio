@@ -39,7 +39,7 @@ export default function ContactSection() {
       <div className="max-w-3xl mx-auto relative z-10">
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 text-center">Let's Connect!</h2>
         <p className="text-muted-foreground text-center mb-10">
-          Got a cool project idea or just want to chat about tech? Drop me a message—I'm always ready to collaborate! 🚀
+          Got a cool project idea or just want to chat about tech? Drop me a message. I'm always ready to collaborate!
         </p>
 
         <div className="grid gap-5 md:grid-cols-2">
