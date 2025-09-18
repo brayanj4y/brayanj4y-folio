@@ -22,7 +22,7 @@ export default function ExperienceSection() {
       company: "JFN-HITECH University Douala",
       period: "Oct 2023 – Present",
       description:
-        "Currently pursuing a Bachelor Degree in Software engineering with a focus on modern web development, AI integration, and software engineering principles.",
+        "Currently pursuing a B.Tech in Software Engineering, studying advanced web development, AI integration, software architecture, and engineering principles.",
     },
 
     {
@@ -30,7 +30,7 @@ export default function ExperienceSection() {
       company: "JFN-HITECH University Douala",
       period: "Oct 2023 – June 2025",
       description:
-        "Obtained a Higher National Diploma with a focus on modern web development, AI integration, and software engineering principles.",
+        "Completed HND in Software Engineering, focused on practical web development, databases, and foundational software design.",
     },
     {
       title: "Junior Software Engineer (Intern)",
@@ -50,7 +50,6 @@ export default function ExperienceSection() {
 
   return (
     <section id="experience" className="py-16 px-3 md:px-5 lg:px-6 relative overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,hsl(var(--primary)/0.2),transparent_40%)] z-0"></div>
       <div className="max-w-5xl mx-auto relative z-10">
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-10 text-center">Work Experience</h2>
 
