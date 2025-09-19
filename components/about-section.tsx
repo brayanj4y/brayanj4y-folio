@@ -13,14 +13,8 @@ export default function AboutSection() {
 
   return (
     <section id="about" className="py-20 px-4 md:px-6 lg:px-8 relative">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_10%_50%,hsl(var(--primary)/0.2),transparent_40%)] z-0"></div>
+
       <div className="max-w-5xl mx-auto relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">About Me</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Few things about me.✨
-          </p>
-        </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div

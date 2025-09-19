@@ -7,17 +7,18 @@ import AboutSection from "@/components/about-section"
 import ExperienceSection from "@/components/experience-section"
 import ServicesSection from "@/components/services-section"
 import ContactSection from "@/components/contact-section"
+import FloatingNavbar from "@/components/small-components/floating_navbar"
 
 export default function Home() {
     return (
         <main className="min-h-screen bg-gradient-to-b from-background to-background/80">
-            <HeroSection />
+            <FloatingNavbar />
 
-            <AboutSection />
+            <HeroSection />
 
             <ServicesSection />
 
-            <ExperienceSection />
+
 
             {/* Projects Section */}
             <section id="projects" className="py-20 px-4 md:px-6 lg:px-8 relative overflow-hidden">
@@ -73,29 +74,6 @@ export default function Home() {
                             View All Projects
                             <Sparkles className="ml-2 h-4 w-4" />
                         </Link>
-                    </div>
-                </div>
-            </section>
-
-            {/* Skills Section */}
-            <section id="skills" className="py-20 px-4 md:px-6 lg:px-8 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,hsl(var(--primary)/0.2),transparent_40%)] z-0"></div>
-                <div className="max-w-5xl mx-auto relative z-10">
-                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-12 text-center">Skills & Technologies</h2>
-
-                    <div className="flex flex-wrap justify-center gap-6">
-                        <SkillPill name="AWS" />
-                        <SkillPill name="Supabase" />
-                        <SkillPill name="Clerk" />
-                        <SkillPill name="GitHub" />
-                        <SkillPill name="JavaScript" />
-                        <SkillPill name="HTML5" />
-                        <SkillPill name="CSS" />
-                        <SkillPill name="Node.js" />
-                        <SkillPill name="Next.js" />
-                        <SkillPill name="SQLite3" />
-                        <SkillPill name="MySQL" />
-                        <SkillPill name="Postgres" />
                     </div>
                 </div>
             </section>
